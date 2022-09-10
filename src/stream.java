@@ -22,10 +22,9 @@ public class stream {
         return result;
     }
     /*
-        stream 예1)
+        // stream 예제
 
         ArrayList<stream.Apple> appleBox = new ArrayList<>();
-
         stream.Apple apple = new stream.Apple();
         apple.setColor("blue");
         appleBox.add(apple);
@@ -39,9 +38,14 @@ public class stream {
         apple.setColor("GREEN");
         appleBox.add(apple);
 
+        // 메소드 참조
         ArrayList<stream.Apple> green = stream.filterApple(appleBox, stream::greenCheck);
         for (stream.Apple get : green){
             System.out.println(get.getColor());
         }
+
+        // 익명 함수
+        ArrayList<stream.Apple> green2 = stream.filterApple(appleBox, (stream.Apple a) -> "GREEN".equals(a.getColor()));
+        for (stream.Apple get : green) System.out.println(get.getColor());
      */
 }
