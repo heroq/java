@@ -47,5 +47,14 @@ public class stream {
         // 익명 함수
         ArrayList<stream.Apple> green2 = stream.filterApple(appleBox, (stream.Apple a) -> "GREEN".equals(a.getColor()));
         for (stream.Apple get : green) System.out.println(get.getColor());
+
+        // 내장 filter
+        List<stream.Apple> green3 = appleBox.stream().filter((stream.Apple a) -> "GREEN".equals(a.getColor())).collect(toList());
+        for (stream.Apple get : green3) System.out.println(get.getColor());
+
+        // 병렬 처리
+        List<stream.Apple> green4 = appleBox.parallelStream().filter((stream.Apple a) -> "GREEN".equals(a.getColor())).collect(toList());
+        for (stream.Apple get : green4) System.out.println(get.getColor());
+
      */
 }
