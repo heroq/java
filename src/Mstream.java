@@ -1,8 +1,7 @@
-import java.sql.Array;
 import java.util.ArrayList;
 import java.util.function.Predicate;
 
-public class Stream {
+public class Mstream {
     static class Apple{
         String color;
         public void setColor(String color){this.color = color;}
@@ -22,8 +21,9 @@ public class Stream {
         return result;
     }    
     /*
-        // stream 예제
+        // Stream 예제
 
+        // Dump Data
         ArrayList<stream.Apple> appleBox = new ArrayList<>();
         stream.Apple apple = new stream.Apple();
         apple.setColor("blue");
