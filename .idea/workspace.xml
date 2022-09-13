@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42f72630-221c-46dc-8906-240829658e7c" name="변경" comment="정적 파라미터">
+    <list default="true" id="42f72630-221c-46dc-8906-240829658e7c" name="변경" comment="정적 파라미터, 스트림">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehaviorParameterization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/정적파라미터화/BehaviorParameterization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mstream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/스트림/Mstream.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -52,7 +50,7 @@
       <updated>1662728431089</updated>
       <workItem from="1662728432719" duration="4074000" />
       <workItem from="1662816074329" duration="6000" />
-      <workItem from="1662976234010" duration="3030000" />
+      <workItem from="1662976234010" duration="5335000" />
     </task>
     <task id="LOCAL-00001" summary="stream Predicate">
       <created>1662732147990</created>
@@ -82,7 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662977494984</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="정적 파라미터, 스트림">
+      <created>1663035938917</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663035938917</updated>
+    </task>
+    <task id="LOCAL-00006" summary="정적 파라미터, 스트림">
+      <created>1663035959498</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663035959498</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +117,7 @@
     <MESSAGE value="스트림 익명 함수" />
     <MESSAGE value="스트림 기본 함수 filter" />
     <MESSAGE value="정적 파라미터" />
-    <option name="LAST_COMMIT_MESSAGE" value="정적 파라미터" />
+    <MESSAGE value="정적 파라미터, 스트림" />
+    <option name="LAST_COMMIT_MESSAGE" value="정적 파라미터, 스트림" />
   </component>
 </project>
