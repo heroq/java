@@ -1,7 +1,10 @@
 package 람다;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.function.Consumer;
+import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
@@ -16,6 +19,7 @@ public class lambda {
         return setGame;
     }
 
+    // Predicate
     public <T> List<T> filter(List<T> t, Predicate<T> p){
         List<T> temp = new ArrayList<T>();
         for(T get : t){
@@ -26,10 +30,28 @@ public class lambda {
         return temp;
     }
 
+    // Consumer
+    public <T> void forEach(List<T> list, Consumer<T> c){
+        for(T t : list){
+            c.accept(t);
+        }
+    }
+
+    // Function
+    public <T, R> List<R> map(List<T> list, Function<T, R> f){
+        List<R> result = new ArrayList<>();
+        for(T t : list){
+            result.add(f.apply(t));
+        }
+        return result;
+    }
+
     public void start(){
         람다.lambda list = new 람다.lambda();
         ArrayList<Game> games = list.lambda();
 
+        // Predicate
+        System.out.println("*Predicate");
         // 1.   stream의 filter의 Predicate 람다식
         //      Predicate를 바로 생성한것
         games = (ArrayList<Game>) games.stream().filter((Game g) -> g.getLevel() <= 10).collect(Collectors.toList());
@@ -56,5 +78,27 @@ public class lambda {
         List<Game> games3 = list.lambda();
         games3 = filter(games3, new lambdaName());
         for(Game g : games3) System.out.println(g.toString());
+
+        // Consumer
+        System.out.println("*Consumer");
+
+        // 1.   List를 받고
+        //      그 해당 값 요소를 가져옴
+        forEach(
+                Arrays.asList(1, 2, 3, 4),
+                (Integer i)-> System.out.print(i+" ")
+        );
+
+        // Function
+        System.out.println();
+        System.out.println("*Function");
+        List<Integer> l = map(
+                Arrays.asList("a", "abc", "ab", "abcd"),
+                (String s) -> s.length()
+        );
+
+        // 메소드 참조로 출력
+        // l.forEach(System.out::print);
+        l.forEach(s -> System.out.print(s+", "));
     }
 }
