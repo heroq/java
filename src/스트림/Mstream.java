@@ -1,3 +1,5 @@
+package 스트림;
+
 import java.util.ArrayList;
 import java.util.function.Predicate;
 
