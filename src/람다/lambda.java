@@ -100,7 +100,7 @@ public class lambda {
         // 메소드 참조로 출력
         // l.forEach(System.out::print);
         // forEach 람다로 출력
-        l.forEach(System.out::print);
+        l.forEach((Integer i)-> System.out.println(i));
 
         // 메소드 참조
         // System.out.print -> System.out::print
