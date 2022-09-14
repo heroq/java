@@ -99,6 +99,7 @@ public class lambda {
 
         // 메소드 참조로 출력
         // l.forEach(System.out::print);
+        // forEach 람다로 출력
         l.forEach(s -> System.out.print(s+", "));
     }
 }
