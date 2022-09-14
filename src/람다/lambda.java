@@ -100,6 +100,10 @@ public class lambda {
         // 메소드 참조로 출력
         // l.forEach(System.out::print);
         // forEach 람다로 출력
-        l.forEach(s -> System.out.print(s+", "));
+        l.forEach(System.out::print);
+
+        // 메소드 참조
+        // System.out.print -> System.out::print
+        // (a1) -> a1.length() -> String::length <매개변수는 해당 클래스로 변경>
     }
 }
