@@ -89,6 +89,10 @@ public class lambda {
                 (Integer i)-> System.out.print(i+" ")
         );
 
+        // 1.   accept를 통해 해당 객체의 값을 받아옴
+        Consumer<String> c = (String a)-> System.out.println(a);
+        c.accept("A");
+
         // Function
         System.out.println();
         System.out.println("*Function");
@@ -105,5 +109,6 @@ public class lambda {
         // 메소드 참조
         // System.out.print -> System.out::print
         // (a1) -> a1.length() -> String::length <매개변수는 해당 클래스로 변경>
+
     }
 }
