@@ -93,7 +93,7 @@ public class lambda {
         System.out.println();
         System.out.println("*Function");
         List<Integer> l = map(
-                Arrays.asList("a", "abc", "ab", "abcd"),
+                Arrays.asList("A", "AB", "ABC", "ABCD"),
                 (String s) -> s.length()
         );
 

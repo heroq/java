@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="42f72630-221c-46dc-8906-240829658e7c" name="변경" comment="람다식">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/람다/lambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/람다/lambda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +50,7 @@
       <updated>1662728431089</updated>
       <workItem from="1662728432719" duration="4074000" />
       <workItem from="1662816074329" duration="6000" />
-      <workItem from="1662976234010" duration="10787000" />
+      <workItem from="1662976234010" duration="12979000" />
     </task>
     <task id="LOCAL-00001" summary="stream Predicate">
       <created>1662732147990</created>
@@ -130,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663043447819</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="람다식">
+      <created>1663161778625</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1663161778625</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
