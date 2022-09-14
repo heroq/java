@@ -89,6 +89,7 @@ public class lambda {
                 (Integer i)-> System.out.print(i+" ")
         );
 
+        System.out.println();
         // 1.   accept를 통해 해당 객체의 값을 받아옴
         Consumer<String> c = (String a)-> System.out.println(a);
         c.accept("A");
