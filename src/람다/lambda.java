@@ -50,7 +50,7 @@ public class lambda {
         람다.lambda list = new 람다.lambda();
         ArrayList<Game> games = list.lambda();
 
-        // Predicate
+        /** Predicate **/
         System.out.println("*Predicate");
         // 1.   stream의 filter의 Predicate 람다식
         //      Predicate를 바로 생성한것
@@ -79,7 +79,8 @@ public class lambda {
         games3 = filter(games3, new lambdaName());
         for(Game g : games3) System.out.println(g.toString());
 
-        // Consumer
+        /** Consumer **/
+        System.out.println();
         System.out.println("*Consumer");
 
         // 1.   List를 받고
@@ -91,21 +92,25 @@ public class lambda {
 
         System.out.println();
         // 1.   accept를 통해 해당 객체의 값을 받아옴
-        Consumer<String> c = (String a)-> System.out.println(a);
+        Consumer<String> c = System.out::println;
         c.accept("A");
 
-        // Function
+        /** Function **/
         System.out.println();
         System.out.println("*Function");
         List<Integer> l = map(
                 Arrays.asList("A", "AB", "ABC", "ABCD"),
                 (String s) -> s.length()
         );
-
         // 메소드 참조로 출력
         // l.forEach(System.out::print);
         // forEach 람다로 출력
         l.forEach((Integer i)-> System.out.println(i));
+
+
+        Function<Integer, String> f = (Integer i)-> i.toString();
+        System.out.println(f.apply(10));
+
 
         // 메소드 참조
         // System.out.print -> System.out::print
