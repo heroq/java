@@ -116,5 +116,6 @@ public class lambda {
         // System.out.print -> System.out::print
         // (a1) -> a1.length() -> String::length <매개변수는 해당 클래스로 변경>
 
+        // 2022-09-16
     }
 }

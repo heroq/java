@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42f72630-221c-46dc-8906-240829658e7c" name="변경" comment="Consumer">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/람다/lambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/람다/lambda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +50,7 @@
       <workItem from="1662728432719" duration="4074000" />
       <workItem from="1662816074329" duration="6000" />
       <workItem from="1662976234010" duration="14630000" />
+      <workItem from="1663251594717" duration="679000" />
     </task>
     <task id="LOCAL-00001" summary="stream Predicate">
       <created>1662732147990</created>
@@ -171,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663171091455</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Consumer">
+      <created>1663251602277</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1663251602277</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
