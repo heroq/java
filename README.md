@@ -11,3 +11,4 @@
 - Predicate
 - Consumer
 - Function
+### 4. 
