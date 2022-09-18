@@ -11,4 +11,5 @@
 - Predicate
 - Consumer
 - Function
-### 4. 
+- 메소드 참조
+- 생성자 참조

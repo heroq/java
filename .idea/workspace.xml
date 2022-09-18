@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42f72630-221c-46dc-8906-240829658e7c" name="변경" comment="rest">
-      <change beforePath="$PROJECT_DIR$/src/람다/lambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/람다/lambda.java" afterDir="false" />
-    </list>
+    <list default="true" id="42f72630-221c-46dc-8906-240829658e7c" name="변경" comment="rest" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +48,7 @@
       <workItem from="1662728432719" duration="4074000" />
       <workItem from="1662816074329" duration="6000" />
       <workItem from="1662976234010" duration="14630000" />
-      <workItem from="1663251594717" duration="755000" />
+      <workItem from="1663251594717" duration="1361000" />
     </task>
     <task id="LOCAL-00001" summary="stream Predicate">
       <created>1662732147990</created>
@@ -185,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663327311772</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="rest">
+      <created>1663327378249</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1663327378249</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
