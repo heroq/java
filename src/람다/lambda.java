@@ -2,6 +2,7 @@ package 람다;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Function;
@@ -116,6 +117,8 @@ public class lambda {
         // System.out.print -> System.out::print
         // (a1) -> a1.length() -> String::length <매개변수는 해당 클래스로 변경>
 
-        // 2022-09-16
+        // 생성자 참조
+
+        // sort 익명 클래스 -> 람다 -> 메소드 참조
     }
 }
